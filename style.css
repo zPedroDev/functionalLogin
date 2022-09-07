@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+
+    transition: 1s;
+    
+}
+
+body{
+    background-color: #5428AA;
+}
+
+form{
+    display: flex;
+    flex-direction: column;  
+}
+
+label + input {
+    margin-bottom: 20px;
+}
+
+input{
+    border: none;
+    outline: none;
+
+    border-radius: 5px;
+    
+    padding: 5px;
+    background: rgba(255, 255, 255, 0);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 2px solid rgba(255, 255, 255, 0.07);
+
+    color: #fff;
+}
+
+h2{
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+
+form button{
+    margin-top: 20px;
+    padding: 5px 10px;
+
+    border-radius: 16px;
+    border: none;
+
+    cursor: pointer;
+
+    color: #fff;
+    background-color: #5428AA;
+
+    
+}
+
+form button:hover{
+    background-color: #7a3afa;
+}
+
+#container-main{
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;    
+}
+
+#container-box{
+    width: 25%;
+    height: 500px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+
+    margin: auto;
+
+}
+
+#container-form{
+    
+    width: 80%;
+    height: 450px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+     
+    background: rgb(36,7,93);
+    background: linear-gradient(90deg, rgba(36,7,93,1) 0%, rgba(68,14,175,1) 35%, rgba(112,63,208,1) 100%);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+
+    /*  */
+    color: #fff;
+
+}
+
+
+#box{
+    
+    background-color: #7a3afa;
+    color: #fff;
+    width: 100%;
+    border-radius: 10px;
+
+    padding: 20px;
+
+}
+
+#box h2{
+    text-align: center;
+}
+
+#box a {
+    text-decoration: none;
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 50px;
+    background-color: #fff;
+}
+
+.sair{
+    text-align: right;
+}
+
